@@ -18,16 +18,17 @@
       <!-- navbar -->
       <nav>
         <ul class="navitems">
-          <h4>LOGO</h4>
-          <li>
-            <a href="#"><button>Sign Up</button></a>
-          </li>
+          <h4 class="inter-insider34">LOGO</h4>
+          <button class="navbutton">Sign Up</button>
+          
         </ul>
       </nav>
       <!-- herosection -->
       <section class="hero-section">
-        <h2>Cool Dark UI Template for Webflow Agencies!</h2>
-        <button>Stay Focused</button>
+        <div class="herotext">
+        <h2 class="raleway-normal65">Cool Dark UI Template for <br>Webflow Agencies!</h2>
+        <button class="stayfocusedbutton">Stay Focused</button>
+        </div>
         <img class="herobg" src="/Assets/Hero-bg.png" />
       </section>
     </header>
@@ -35,12 +36,14 @@
       <!-- launch priview section -->
       <section class="launchprev">
         <div class="launchcard">
-          <h2>See It in Action</h2>
-          <p>
+          <div class="leftsidelaunch">
+          <h2 class="raleway-normal332">See It in Action</h2>
+          <p class="raleway-normal244">
             Explore the live preview and imagine your brand in this bold new
             look.
           </p>
-          <button>Launch Live Preview</button>
+          <button class="launcButton">Launch Live Preview</button>
+          </div>
         </div>
         <div>
           <img class="launchimage" src="/Assets/wc-mini.png" />
@@ -175,19 +178,28 @@
       </section>
 
       <!-- Email form section -->
-      <div class="emailform">
-        <div class="lefttext">
-          <h1>Let’s Get in Touch</h1>
-        </div>
-        <form>
-          <label for="text">Email</label>
-          <input type="text" />
+      <div class="formsection">
+            <div class="leftside">
+              <h1 class="raleway-normal65">Let’s Get <br>in Touch</h1>
+            </div>
+            <div class="rightside">
+              <form >
+                <label class="open-sans-normal" for="email">Email</label><br>
+                <input type="email" placeholder="jonsina@gmail.com"><br>
+                <label class="open-sans-normal" for="text">Name</label><br>
+                <input type="text" placeholder="Jon Sina"><br>
+                <label class="open-sans-normal" for="textarea">Message</label><br>
+                <textarea  id="" cols="30" rows="10" placeholder="write your message"></textarea>
+                  <input class="" type="submit" >
 
-          <label for="text">Name</label>
-          <input type="text" />
-          <label for="message">Message</label>
-          <textarea name="message" id="textarea"></textarea>
-        </form>
+
+
+
+
+
+              </form>
+            </div>
+
       </div>
     </main>
     <footer>

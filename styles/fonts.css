@@ -42,6 +42,15 @@
   color: #606060;
   text-align: center;
 }
+.inter-insider34 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 34px;
+  font-weight:300px;
+  font-style: normal;
+  color: #4E47FF;
+  text-align: center;
+}
 
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
@@ -70,5 +79,104 @@
   text-align: center;
   margin-bottom: 20px;
     white-space: 30px;
+    
+}
+.raleway-normal32 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 32px;
+  font-weight:bold;
+  font-style: normal;
+  text-align: center;
+  margin-bottom: 20px;
+    white-space: 30px;
  
+}
+.raleway-normal332 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 32px;
+  font-weight:bold;
+  font-style: normal;
+  text-align: start;
+  margin-bottom: 20px;
+    white-space: 30px;
+ 
+}
+.raleway-normal24 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 14px;
+  font-weight:200px;
+  font-style: normal;
+  text-align: center;
+  margin-bottom: 20px;
+    white-space: 30px;
+    color: rgba(37, 36, 50, 0.50);
+ 
+}
+.raleway-normal244 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 14px;
+  font-weight:200px;
+  font-style: normal;
+  text-align: start;
+  margin-bottom: 20px;
+    white-space: 30px;
+    color: rgba(37, 36, 50, 0.50);
+ 
+}
+.raleway-normal65 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 65px;
+  font-weight:700px;
+  font-style: bold;
+  text-align: center;
+  margin-bottom: 20px;
+    white-space: 30px;
+    margin-top:150px;
+   
+ 
+}
+
+.launcButton{
+  display: flex;
+height: 48px;
+padding: 12px 36px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 10px;
+background: #4E47FF;
+border-color: #F5F8FF;
+color: #F5F8FF;
+}
+
+.navbutton{
+  display: flex;
+height: 48px;
+padding: 12px 36px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 10px;
+background: #4E47FF;
+border-color: #F5F8FF;
+color: #F5F8FF;
+}
+
+.stayfocusedbutton{
+  display: flex;
+height: 48px;
+padding: 12px 36px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 10px;
+background: #4E47FF;
+color: #F5F8FF;
+margin-left: auto;
+margin-right: auto;
 }

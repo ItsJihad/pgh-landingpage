@@ -27,8 +27,10 @@ nav ul li {
   height: 698px;
   width: auto;
   opacity: 70%;
-  margin-top: -90px;
-  margin-bottom: 80px;
+  position: relative;
+  z-index: -10;
+  margin-top: -600px;
+  margin-bottom:50px;
 }
 
 .hero-section {
@@ -39,11 +41,17 @@ nav ul li {
 
 .launchcard {
   width: 600px;
-  justify-content: space-between;
-  align-items: center;
+  
 
-  margin: 50px 50px;
+  margin: 50px;
 }
+
+
+.leftsidelaunch{
+    justify-content: left;
+    align-items: start;
+}
+
 
 .launchprev {
   width: 1440px;
@@ -135,6 +143,7 @@ nav ul li {
   margin: auto;
   justify-content: center;
   align-items: center;
+  padding-top: 60px;
 }
 
 .focusbutton {
@@ -210,4 +219,91 @@ ul a{
     text-decoration: none;
     padding: 20px;
     color: rgb(74, 71, 71);
+}
+
+.navitems{
+display: flex;
+width: 1140px;
+padding: 50px 0px;
+justify-content: space-between;
+align-items: center;
+margin-left: 150px;
+color: transparent;
+}
+
+.herotext{
+    justify-content: center;
+    align-items: center;
+   
+    margin-left: 270px;
+    margin-right: 270px;
+}
+
+.formsection{
+    display: flex;
+    padding: 60px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 250px;
+}
+
+.leftside{
+   width: 50%;
+}
+
+.rightside{
+    width: 50%;
+    height: 250px;
+}
+
+input[type="text"]{
+    display: flex;
+height: 20px;
+padding: 20px 65px;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+border-radius: 10px;
+border: 1px solid #D6DDED;
+background: #FFF;
+}
+input[type="email"]{
+    display: flex;
+    align-items: start;
+height: 20px;
+padding: 20px 65px;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+border-radius: 10px;
+border: 1px solid #D6DDED;
+background: #FFF;
+}
+textarea{
+display: flex;
+height: 135px;
+padding: 20px 32px;
+align-items: start;
+gap: 10px;
+
+border-radius: 10px;
+border: 1px solid #D6DDED;
+background: #FFF;
+
+}
+
+input[type="submit"]{
+   display: flex;
+padding: 19px 130px;
+justify-content: center;
+align-items: center;
+gap: 100px;
+align-self: stretch;
+
+margin-top: 20px;
+    
+border-radius: 10px;
+background: #4E47FF;
+color: #f5f8ff;
+
 }
