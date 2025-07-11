@@ -33,6 +33,15 @@
   color: #2d2d2f;
   text-align: center;
 }
+.inter-insider16 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 16px;
+  font-weight:300px;
+  font-style: normal;
+  color: #606060;
+  text-align: center;
+}
 
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
@@ -50,4 +59,16 @@
   font-style: normal;
   text-align: center;
   margin-bottom: 50px;
+ 
+}
+.raleway-normal2 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 43px;
+  font-weight:bold;
+  font-style: normal;
+  text-align: center;
+  margin-bottom: 20px;
+    white-space: 30px;
+ 
 }
