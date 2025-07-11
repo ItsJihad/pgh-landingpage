@@ -173,6 +173,12 @@ nav ul li {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+.focusbutton:hover {
+  background: #d00404;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(78, 71, 255, 0.3);
+}
 
 .emailform{
     display: flex;
@@ -227,7 +233,7 @@ width: 1140px;
 padding: 50px 0px;
 justify-content: space-between;
 align-items: center;
-margin-left: 150px;
+margin-left: 200px;
 color: transparent;
 }
 
@@ -306,4 +312,11 @@ border-radius: 10px;
 background: #4E47FF;
 color: #f5f8ff;
 
+}
+
+input[type="submit"]:hover {
+  background: #d00404;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(78, 71, 255, 0.3);
 }

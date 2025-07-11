@@ -154,6 +154,14 @@ border-color: #F5F8FF;
 color: #F5F8FF;
 }
 
+.launcButton:hover {
+  background: #d00404;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(78, 71, 255, 0.3);
+}
+
+
 .navbutton{
   display: flex;
 height: 48px;
@@ -165,6 +173,12 @@ border-radius: 10px;
 background: #4E47FF;
 border-color: #F5F8FF;
 color: #F5F8FF;
+}
+.navbutton:hover {
+  background: #d00404;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(78, 71, 255, 0.3);
 }
 
 .stayfocusedbutton{
@@ -179,4 +193,12 @@ background: #4E47FF;
 color: #F5F8FF;
 margin-left: auto;
 margin-right: auto;
+}
+
+
+.stayfocusedbutton:hover {
+  background: #d00404;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(78, 71, 255, 0.3);
 }
